@@ -9,7 +9,7 @@ function mypage(){
     const pw_btn = document.getElementById("pw-rp")
     const name = <HTMLInputElement>document.getElementById("name-text");
     const name_btn = document.getElementById("name-rpl");
-    id.innerHTML = login_data.userId
+    id.innerHTML = login_data.userId;
     name.value = login_data.userName;
     loginNickName.innerHTML = `
         <img src="${login_data.profileImg}" style="width:30px;height:30px; border-radius:50%; margin-right:5px"> ${name.value} 님
@@ -87,7 +87,6 @@ function changeProfile(){
 changeProfile();
 
 profileDOM.addEventListener("change", function(){
-    
     if(this.files && this.files[0]){
         let reader = new FileReader();
         reader.onload = function(e){
