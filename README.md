@@ -43,7 +43,7 @@
 - 순위는 최대 5위까지 나오고 자신의 순위를 아래 표시되게 했습니다.
 
 <img src="./src/img/스크린샷 2024-09-05 오후 1.27.48.png" style="width: 48%; float: left; height: 280px;">
-<img src="./src/img/스크린샷 2024-09-05 오후 1.27.14.png" style="width: 48%; margin-left: 30px; height: 280px;">
+<img src="./src/img/스크린샷 2024-09-05 오후 1.27.14.png" style="width: 48%; margin-left: 10px; height: 280px;">
 <img src="./src/img/스크린샷 2024-09-05 오후 1.30.58.png" style="width: 48%">
 
 ### 🛠️ 작업 환경
