@@ -22,6 +22,7 @@ class UserDataManager {
     save() {
         if (localStorage.getItem("sign_data") === null) {
             const admin = new UserData("a", "1", "admin", "0", "");
+            console.log(admin);
             localStorage.setItem("sign_data", JSON.stringify([admin]));
         }
         else
